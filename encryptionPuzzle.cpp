@@ -3,7 +3,7 @@
 // Author      : Wirt Salthouse
 // Version     :
 // Copyright   : Copyright Wirt Salthouse
-// Description : Hello World in C++, Ansi-style
+// Description : a simple encription function per a hackerrank puzzle
 //============================================================================
 
 #include <iostream>
