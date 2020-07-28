@@ -10,7 +10,7 @@
 #include<cmath>
 using namespace std;
 int getLowerSquare(int num){
-	return int(ceil(sqrt(num)));//need one extra char to do the split
+	return int(ceil(sqrt(num)));
 }
 string encryption(string s) {
 	int length = s.length();
@@ -32,6 +32,5 @@ string encryption(string s) {
 
 int main() {
 	string msg ="haveaniceday";
-	cout << encryption(msg) << endl; // prints It's cold outside, there's no kind of atmosphere.
-	return 0;
+	cout << encryption(msg) << endl; // prints the output from the test "msg"
 }
